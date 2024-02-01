@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //variable
+    let x = 20;
+    var name = "Girija";
+    const pi = 3.14;
+
+    console.log(x +" "+ `typeOf x is ${typeof(x)}`);
+    console.log(name +" "+ `typeOf name is ${typeof(name)}`);
+    console.log(pi +" "+ `typeOf pi is  ${typeof(pi)}`); 
+
+    //Array
+    let arr = [1, 'Girija', 5.6, 's'];
+    console.log("arr: " + arr);
+    //change element in array
+    arr[3] = "Shingade";
+    console.log("Updated arr: "+ arr);
+
+    //Object
+    const obj = {
+      name : 'Apple',
+      colour: 'red',
+      number: 50,
+    }
+    console.log(obj);
+    obj["number"] = 15;
+    console.log(obj);
+
+    //shorthand Operator
+    let a=9;
+    a+=2;      //a = a+2;
+    console.log(a);
+
+    let b = 4;
+    b-=2;     
+    console.log(b);
+
+  </script>
+</body>
+</html>
